@@ -1,3 +1,4 @@
+
 return {
     {
         "williamboman/mason.nvim",
@@ -22,9 +23,9 @@ return {
 
             mason_lspconfig.setup({
                 ensure_installed = {
-                    "lua_ls", 
-                    "ts_ls", 
-                    "eslint", 
+                    "lua_ls",
+                    "ts_ls",
+                    "eslint",
                     "stimulus_ls",
                     "html",
                     "cssls",
